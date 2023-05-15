@@ -1,0 +1,20 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: TextBox1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: TextBox1
+    Id: g=f046c81281945460769d808345b15469
+    Supertype: TextBox
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
