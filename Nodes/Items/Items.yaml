@@ -1,0 +1,15 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: EditableLabel1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: EditableLabel1
+    Id: g=a9616b8683627efbeb12449e308436df
+    Supertype: EditableLabel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"EditableLabel1"}
